@@ -1,16 +1,1 @@
-//General css file
-
-// - R - G - B
-:host {
-
-    .container {
-        //background-color: #0042F4;
-    }
-
-    /deep/ {
-        body {
-            background-color: black;
-        }
-    }
-
-}
+@import '../main.scss';

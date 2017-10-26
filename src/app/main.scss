@@ -1,0 +1,33 @@
+
+//Define colors
+$primaryLight: #0066BB;
+$secondaryLight: #004499;
+$primaryDark: #001133;
+$secondaryDark: #003355;
+
+$borderColor: #0077FF;
+
+$bgColor: #002032;
+$white: #EEEEEE;
+$black: #111111;
+
+$red: #EE0000;
+$blue: #0000EE;
+$green: #00EE00;
+$dark: #002255;
+
+//General
+.main-container {
+    background-color: #CCCCFF;
+    margin: 6px;
+    border-radius: 10px;
+    color: $white;
+}
+
+a {
+    color: $white;
+}
+
+h2 {
+    color: $dark
+}
