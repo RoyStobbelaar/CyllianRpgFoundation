@@ -20,4 +20,7 @@ export class MainMenuComponent implements OnInit {
         ]
     }
 
+    public navigate(path: string) {
+
+    }
 }

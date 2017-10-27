@@ -2,8 +2,8 @@
 
 .container {
 
-    background-color: $primaryColor;
-    border: 1px solid $borderColor;
+    background-color: $color4;
+    border: 1px solid $color5;
     border-radius: 12px
 }
 
@@ -13,4 +13,5 @@ li {
 
 ul {
     list-style: none;
+  margin: 0;
 }
