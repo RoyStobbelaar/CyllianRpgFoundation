@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-import { LayoutComponent } from './layout/layout.component';
-import { CharacterViewComponent } from "./character-view/character-view.component";
+import {CharacterContainerComponent} from "./character-container/character-container.component";
 
 const appRoutes: Routes = [
-    {path: '', component: LayoutComponent},
-  {path: 'characters', component: CharacterViewComponent}
+  { path: '', component: CharacterContainerComponent },
+  { path: 'characters', component: CharacterContainerComponent },
 ]
+
 
 @NgModule({
     imports: [RouterModule.forRoot(appRoutes)],

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header-component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { MainMenuItemComponent } from "./main-menu/menu-item/main-menu-item.component";
 import { CharacterViewComponent } from "./character-view/character-view.component";
+import { CharacterContainerComponent } from "./character-container/character-container.component";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CharacterViewComponent } from "./character-view/character-view.componen
     HeaderComponent,
     MainMenuComponent,
     MainMenuItemComponent,
-    CharacterViewComponent
+    CharacterViewComponent,
+    CharacterContainerComponent
   ],
   imports: [
     BrowserModule,
