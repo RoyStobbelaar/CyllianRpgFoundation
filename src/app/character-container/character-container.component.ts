@@ -28,7 +28,7 @@ export class CharacterContainerComponent implements OnInit {
       race: 'Demon',
       gender: 'Female',
       subclass: 'Ancient Warrior',
-      portrait: 'none',
+      portrait: '../assets/images/portraits/portrait_1.png',
       description: 'Razhanal the Ancient Demon is one of the survivors of the Gods Apocalypse. Her powers.... '
     });
 
@@ -37,7 +37,7 @@ export class CharacterContainerComponent implements OnInit {
       race: 'Human',
       gender: 'Male',
       subclass: 'Ancient Death Knight',
-      portrait: 'none',
+      portrait: '../assets/images/portraits/portrait_2.png',
       description: 'Nicknamed the Ice God. Yzanoth is a immortal death knight, roaming the Forsaken Wastes. ...'
     });
 
@@ -46,8 +46,8 @@ export class CharacterContainerComponent implements OnInit {
       race: 'Elf',
       gender: 'Female',
       subclass: 'Ranger',
-      portrait: 'none',
+      portrait: '../assets/images/portraits/portrait_3.png',
       description: 'Isidrae is a young elven commander leading the 11th ranger unit from the elven army. '
-    })
+    });
   }
 }

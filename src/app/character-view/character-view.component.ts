@@ -11,15 +11,17 @@ import {Character} from "../Logic/Models/character";
       </div>
       
       <div class="character-data">
-        <div>
+        <div class="character-race">
           {{ character.race}} {{ character.subclass}}
         </div>
         
-        <div> {{ character.gender }}</div>
-        
         <div class="character-portrait">
-          <img (src)=character.portrait />
+          <img [src]=character.portrait />
         </div>
+        
+        <div class="character-gender"> {{ character.gender }}</div>
+        
+
         <div> {{ character.description }}</div>
         
       </div>
