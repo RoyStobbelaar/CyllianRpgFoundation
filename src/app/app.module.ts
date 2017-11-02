@@ -9,6 +9,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { MainMenuItemComponent } from "./main-menu/menu-item/main-menu-item.component";
 import { CharacterViewComponent } from "./character-view/character-view.component";
 import { CharacterContainerComponent } from "./character-container/character-container.component";
+import {IndexComponent} from "./index/index.component";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CharacterContainerComponent } from "./character-container/character-con
     MainMenuComponent,
     MainMenuItemComponent,
     CharacterViewComponent,
-    CharacterContainerComponent
+    CharacterContainerComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

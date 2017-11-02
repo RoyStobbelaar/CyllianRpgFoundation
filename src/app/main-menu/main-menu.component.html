@@ -1,20 +1,28 @@
-<div class="container">
+<div class="grid-x">
+
+  <div class="container cell medium-2">
+    <header></header>
     <!-- Do some menu items -->
-    <ul>
-      <menu-item onclick="navigate('index')">
+    <ul style="margin-top: 100px;">
+      <menu-item (click)="navigate('')">
         Index
       </menu-item>
-      <menu-item onclick="navigate('characters')">
+      <menu-item (click)="navigate('characters')">
         Characters
       </menu-item>
-      <menu-item onclick="navigate('items')">
+      <menu-item (click)="navigate('items')">
         Items
       </menu-item>
-      <menu-item onclick="navigate('quests')">
+      <menu-item (click)="navigate('quests')">
         Quests
       </menu-item>
-      <menu-item onclick="navigate('game')">
+      <menu-item (click)="navigate('game')">
         Game
       </menu-item>
     </ul>
+  </div>
+
+  <div class="content cell medium-10" #content>
+    <ng-content></ng-content>
+  </div>
 </div>

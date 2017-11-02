@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
     selector: 'menu',
@@ -9,6 +10,10 @@ import { Component, OnInit } from '@angular/core';
 export class MainMenuComponent implements OnInit {
 
     public menuItems = [];
+
+    constructor(private _router: Router){
+
+    }
 
     ngOnInit(): void {
         //Fill menuItems
@@ -21,6 +26,6 @@ export class MainMenuComponent implements OnInit {
     }
 
     public navigate(path: string) {
-
+      this._router.navigate([path]);
     }
 }

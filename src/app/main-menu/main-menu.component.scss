@@ -1,17 +1,35 @@
 @import '../main.scss';
 
 .container {
+  height: 100vh;
+  background-color: $color1;
+}
 
-    background-color: $color4;
-    border: 1px solid $color5;
-    border-radius: 12px;
+.content {
+  background-color: $color3;
+  margin-top: -15px;
 }
 
 li {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
   margin: 0;
+
+  menu-item {
+    /deep/ {
+      .menu-item {
+        border-bottom: 1px solid $color3;
+      }
+    }
+  }
+  menu-item:last-of-type {
+    /deep/ {
+      .menu-item {
+        border-bottom: none;
+      }
+    }
+  }
 }
