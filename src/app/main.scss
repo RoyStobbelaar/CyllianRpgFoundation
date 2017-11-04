@@ -1,10 +1,12 @@
 //Define colors
 //Colors dark to light
 $color1: #111111;
-$color2: #0d1526;
-$color3: #1a294c;
-$color4: #263d73;
-$color5: #31519b;
+$color2: #09191b;
+$color3: #133236;
+$color4: #1c4b52;
+$color5: #494949;
+$color6: #5b5b5b;
+$color7: #6d6d6d;
 
 $primaryLight: #0066BB;
 $secondaryLight: #004499;
@@ -15,7 +17,7 @@ $borderColor: #0077FF;
 
 $bgColor: #002032;
 $white: #EEEEEE;
-$black: #111111;
+$black: #000000;
 
 $red: #EE0000;
 $blue: #0000EE;
@@ -35,4 +37,8 @@ a {
 
 h2 {
   color: $white
+}
+
+.spacing {
+  padding: 5px;
 }

@@ -6,7 +6,7 @@ import {Character} from "../Logic/Models/character";
   template: `    
     <div class="container">
       <div class="grid-x" >
-        <div style="padding: 5px;" class="cell medium-4" *ngFor="let character of characters">
+        <div class="cell medium-4 spacing" *ngFor="let character of characters">
           <character-view [character]="character"></character-view>
         </div>
       </div>
