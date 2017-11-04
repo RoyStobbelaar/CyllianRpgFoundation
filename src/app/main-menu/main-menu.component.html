@@ -1,6 +1,35 @@
-<div class="grid-x">
+<!--<div class="grid-x">-->
 
-  <div class="container cell medium-2">
+  <!--<div class="container cell medium-2">-->
+    <!--<header></header>-->
+    <!--&lt;!&ndash; Do some menu items &ndash;&gt;-->
+    <!--<ul style="margin-top: 100px;">-->
+      <!--<menu-item (click)="navigate('')">-->
+        <!--Index-->
+      <!--</menu-item>-->
+      <!--<menu-item (click)="navigate('characters')">-->
+        <!--Characters-->
+      <!--</menu-item>-->
+      <!--<menu-item (click)="navigate('items')">-->
+        <!--Items-->
+      <!--</menu-item>-->
+      <!--<menu-item (click)="navigate('quests')">-->
+        <!--Quests-->
+      <!--</menu-item>-->
+      <!--<menu-item (click)="navigate('game')">-->
+        <!--Game-->
+      <!--</menu-item>-->
+    <!--</ul>-->
+  <!--</div>-->
+
+  <!--<div class="content cell medium-10" #content>-->
+    <!--<ng-content></ng-content>-->
+  <!--</div>-->
+<!--</div>-->
+
+<div style="display: inline-flex">
+
+  <div class="container">
     <header></header>
     <!-- Do some menu items -->
     <ul style="margin-top: 100px;">
@@ -22,7 +51,7 @@
     </ul>
   </div>
 
-  <div class="content cell medium-10" #content>
+  <div class="main-content" #content>
     <ng-content></ng-content>
   </div>
 </div>

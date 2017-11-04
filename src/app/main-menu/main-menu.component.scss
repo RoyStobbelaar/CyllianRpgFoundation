@@ -3,11 +3,18 @@
 .container {
   height: 100vh;
   background-color: $color1;
+  min-width: 240px;
 }
 
 .content {
   background-color: $color3;
   margin-top: -15px;
+}
+
+.main-content {
+  background-color: $color3;
+  margin-top: -15px;
+  width: 100%;
 }
 
 li {
