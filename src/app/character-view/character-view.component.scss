@@ -1,7 +1,7 @@
 @import '../main.scss';
 
 .character-container {
-  border: 1px solid $color5;
+  border: 1px solid $borderColor;
   background-color: $color2;
   min-height: 300px;
   padding: 10px;
@@ -14,7 +14,7 @@
 }
 
 .character-race {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid $borderColor;
 }
 
 .character-title {
@@ -25,4 +25,3 @@
 .character-gender {
   margin-bottom: 15px;
 }
-

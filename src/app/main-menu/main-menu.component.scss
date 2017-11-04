@@ -7,7 +7,7 @@
 }
 
 .content {
-  background-color: $color3;
+  background-color: $color4;
   margin-top: -15px;
 }
 
@@ -28,7 +28,7 @@ ul {
   menu-item {
     /deep/ {
       .menu-item {
-        border-bottom: 1px solid $color3;
+        border-bottom: 1px solid $borderColor;
       }
     }
   }
