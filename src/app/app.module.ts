@@ -11,6 +11,10 @@ import { CharacterViewComponent } from "./character-view/character-view.componen
 import { CharacterContainerComponent } from "./character-container/character-container.component";
 import {IndexComponent} from "./index/index.component";
 import {CharacterService} from "./services/character.service";
+import {AngularFireAuthModule} from "angularfire2/auth";
+import {AngularFireDatabaseModule} from "angularfire2/database";
+import {AngularFireModule} from "angularfire2";
+import {environment} from "../environments/environment";
 
 @NgModule({
   declarations: [
@@ -25,7 +29,10 @@ import {CharacterService} from "./services/character.service";
   ],
   imports: [
     BrowserModule,
-    RoutingModule
+    RoutingModule,
+    //AngularFireModule.initializeApp(environment.firebase, 'cyllianrpg'),
+    //AngularFireDatabaseModule,
+    //AngularFireAuthModule
   ],
   providers: [
     CharacterService
